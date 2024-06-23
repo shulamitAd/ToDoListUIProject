@@ -1,0 +1,26 @@
+<div class="container">
+    <h1>ToDo List</h1>
+    <table class="table" *ngIf="todos && todos.length > 0">
+        <thead>
+        <tr>
+            <th scope="col">Id#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Planned Date</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let item of todos">
+            <th>{{ item.id }}</th>
+            <th>{{ item.title }}</th>
+            <th>{{ item.description }}</th>
+            <th>{{ item.plannedDate|date }}</th>
+            <th><a [routerLink]="['/todos','edit',item.id]">Edit</a></th>   
+            <th><a [routerLink]="[]" (click)="deleteItem(item.id)">Delete</a></th>   
+        </tr>        
+        </tbody>
+    </table>
+    <p *ngIf="!todos || todos.length == 0">No ToDos Found!</p>
+</div>
