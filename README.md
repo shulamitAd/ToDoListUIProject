@@ -3,8 +3,11 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
 # Start the frontend:
-Navigate back to the main project directory.
-Run ng serve to start the Angular development server. The default frontend development server usually runs at http://localhost:4200.
+- open vs code
+- open the ToDoListUIProject folder
+- open terminal window
+- run npm install
+- Run ng serve to start the Angular development server. The default frontend development server usually runs at http://localhost:4200.
 
 # Usage
 Open http://localhost:4200 in your web browser.
