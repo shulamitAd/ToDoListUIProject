@@ -13,7 +13,7 @@ export class TodoService {
 
   myHeaders = new HttpHeaders({
     'Content-Type': 'application/json',
-    'x-developer-name': 'some developer'
+    'x-developer-name': 'Shulamit Tzikinovski'
   });
   
   options = {
