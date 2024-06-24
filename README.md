@@ -2,13 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
-## Development server
+# Start the frontend:
+- open vs code
+- open the ToDoListUIProject folder
+- open terminal window
+- run npm install
+- Run ng serve to start the Angular development server. The default frontend development server usually runs at http://localhost:4200.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Usage
+Open http://localhost:4200 in your web browser.
+You should see the todo list application interface.
+Existing todo items will be displayed in a list.
+Click on an item to edit it, modify its details, and click "Update".
+Use the "Delete" button next to an item to remove it from the list.
+Click on "Add ToDo Item", enter a title, description and planned date for a new todo item and click "Add" to create it.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
